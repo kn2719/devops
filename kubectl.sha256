@@ -1,1 +1,16 @@
-2d88e56d668b1d7575b4783f22d512e94da432f42467c3aeac8a300b6345f12d
+Kubernetes, often abbreviated as K8s, is an open-source container orchestration platform designed to automate the deployment, scaling, and management of containerized applications. It was originally developed by Google and is now maintained by the Cloud Native Computing Foundation (CNCF). Kubernetes provides a robust and scalable container orchestration solution, making it easier to deploy, manage, and scale containerized applications.
+
+
+STEPS 1: - Launch EC2 instance
+STEPS 2: — Connect with the Instance
+STEPS 3: — Install/update Dependencies
+
+sudo su
+
+yum install docker -y
+
+systemctl start docker
+
+sudo yum -y install kubectl
+
+kubectl version --client
