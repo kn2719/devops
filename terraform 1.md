@@ -1,5 +1,33 @@
 # Creating aws EC2 instance using terraform
 
+Terraform is an open-source infrastructure as code (IaC) tool created by HashiCorp. It allows you to define and provision infrastructure in a declarative configuration language, enabling you to manage and version your infrastructure in a predictable and scalable way. 
+
+Here's a basic workflow for managing infrastructure with Terraform:
+
+Write the Terraform configuration to define your infrastructure.
+Run terraform init to initialize your working directory.
+Run terraform plan to see the execution plan.
+Run terraform apply to apply the changes and create/update the infrastructure.
+If needed, use terraform destroy to destroy the infrastructure.
+
+Terraform installation:
+Create instance named as terraform in ec2 instance 
+Connect
+sudo  su –
+yum update -y
+yum install terraform
+write terraform download in browser
+open terraform by hashicorp
+click open source self managed terraform ‘
+click linux and amazon linux
+write all 3 commands 
+
+sudo yum install -y yum-utils shadow-utils
+sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
+sudo yum -y install terraform
+terraform -v
+
+hence installed
 ## Prerequisites
 
 - AWS account
