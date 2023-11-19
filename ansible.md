@@ -1,4 +1,8 @@
 # Installation of Ansible and Deploy Playbook to web server
+Docker is a platform for developing, shipping, and running applications in containers. Containers are lightweight, portable, and self-sufficient units that encapsulate everything needed to run a piece of software, including the code, runtime, libraries, and system tools. 
+
+Ansible is an open-source automation tool that is widely used for configuration management, application deployment, task automation, and orchestration. It simplifies the process of managing and maintaining IT infrastructure by allowing you to define tasks in a declarative language and then automate the execution of those tasks across a set of remote systems.
+
 
 ## Procedure to install Ansible in Mac OS
 
