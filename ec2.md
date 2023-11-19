@@ -1,7 +1,6 @@
 # To Create an EC2 Instance and Perform S3 Lifecycle Configuration
-
+Amazon Elastic Compute Cloud (EC2) is a web service provided by Amazon Web Services (AWS) that allows you to run virtual servers in the cloud.
 ## Prerequisites
-
 - AWS CLI
 - AWS Account
 - IAM User with Administrator Access
